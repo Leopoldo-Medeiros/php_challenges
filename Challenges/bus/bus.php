@@ -1,5 +1,4 @@
 <?php
-
 /*
 Bob is working as a Challenges driver. However, he has become extremely popular amongst the city's residents.
 With so many passengers wanting to get aboard his Challenges, he sometimes has to face the problem of not enough space left on the Challenges!
@@ -14,7 +13,6 @@ wait -> The number of people waiting to get on to the Challenges excluding the d
 
 If there is enough space, return 0, and if there isn't, return the number of passengers he can't take.
 */
-
 function enough($cap, $on, $wait) {
     $availableSpace = $cap - $on; // Calculating the Challenges' space
 

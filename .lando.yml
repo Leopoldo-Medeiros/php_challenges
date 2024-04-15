@@ -1,0 +1,4 @@
+name: challenges
+recipe: lamp
+config:
+  webroot: .
